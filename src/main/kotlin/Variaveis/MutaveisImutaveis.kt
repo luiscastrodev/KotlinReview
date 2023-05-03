@@ -1,0 +1,4 @@
+package Variaveis
+
+class MutaveisImutaveis {
+}
