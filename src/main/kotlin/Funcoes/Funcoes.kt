@@ -1,5 +1,7 @@
 package Funcoes
 
+import kotlin.math.round
+
 fun main(args: Array<String>) {
     helloWorld()
     val soma = sum(2, 3)
@@ -7,6 +9,7 @@ fun main(args: Array<String>) {
 
     val str = "Kotlin"
     println("Tamanho string ${str.length}")
+    println(round(303.93))
 }
 
 fun sum(a: Int, b: Int): Int {
