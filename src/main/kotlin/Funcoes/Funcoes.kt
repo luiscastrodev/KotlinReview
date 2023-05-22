@@ -19,3 +19,17 @@ fun sum(a: Int, b: Int): Int {
 fun sum_unica_linha(a: Int, b: Int) = (a + b)
 
 fun helloWorld() = println("Hello , world")
+
+fun bonusWhen(cargo: String) =
+
+    when (cargo) {
+        "Gerente" -> {
+            2000f
+        }
+        "Estagiario" -> {
+            500f
+        }
+        else -> {
+            0f
+        }
+    }
