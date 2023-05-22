@@ -2,7 +2,7 @@ package Funcoes
 
 import kotlin.math.round
 
-fun main(args: Array<String>) {
+fun main() {
     helloWorld()
     val soma = sum(2, 3)
     println("A soma de 10 e 5 $soma")
@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 
     nome(cidade = "Ca", estado = "SP")
 
-    media( 5f, 5f)
+    println(media( 10f, 10f))
 }
 
 fun sum(a: Int, b: Int): Int {
