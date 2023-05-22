@@ -2,29 +2,29 @@ package ControleFuxo
 
 fun main() {
 
-    for (i in 1..10 step 2){
+    for (i in 1..10 step 2) {
         println(i)
     }
 
     val s = "kotlin"
 
-    for (char in s){
+    for (char in s) {
         println(char)
     }
 
-    for (j in 20  downTo 0 step 2){
+    for (j in 20 downTo 0 step 2) {
         println(j)
     }
 
     var index = 0
-    while (index <= 300){
+    while (index <= 300) {
         println(index)
-        index ++
+        index++
     }
 
     do {
         println(index)
-        index ++
-    }while (index <= 500)
+        index++
+    } while (index <= 500)
 }
 
