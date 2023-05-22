@@ -36,7 +36,6 @@ fun main(){
     println(Int.MAX_VALUE)
     println(UInt.MAX_VALUE)
 
-
     println(Int.MIN_VALUE)
     println(UInt.MIN_VALUE)
 
