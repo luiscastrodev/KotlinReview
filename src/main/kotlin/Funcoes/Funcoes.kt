@@ -10,6 +10,10 @@ fun main(args: Array<String>) {
     val str = "Kotlin"
     println("Tamanho string ${str.length}")
     println(round(303.93))
+
+    nome(cidade = "Ca", estado = "SP")
+
+    media( 5f, 5f)
 }
 
 fun sum(a: Int, b: Int): Int {
@@ -26,10 +30,21 @@ fun bonusWhen(cargo: String) =
         "Gerente" -> {
             2000f
         }
+
         "Estagiario" -> {
             500f
         }
+
         else -> {
             0f
         }
     }
+
+fun nome(cidade: String, estado: String, numero: Int = 0) {
+
+}
+
+fun media(vararg notas: Float): Double {
+
+    return  notas.average()
+}
